@@ -42,9 +42,9 @@ public class NoHeadDataTest {
 
     private List<NoHeadData> data() {
         List<NoHeadData> list = new ArrayList<NoHeadData>();
-        NoHeadData data = new NoHeadData();
-        data.setString("字符串0");
-        list.add(data);
+//        NoHeadData data = new NoHeadData();
+//        data.setString("字符串0");
+//        list.add(data);
         return list;
     }
 }

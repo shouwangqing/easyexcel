@@ -131,12 +131,12 @@ public class CompatibilityParameterDataTest {
 
     private List<CompatibilityData> data() {
         List<CompatibilityData> list = new ArrayList<CompatibilityData>();
-        for (int i = 0; i < 10; i++) {
-            CompatibilityData data = new CompatibilityData();
-            data.setString0("字符串0" + i);
-            data.setString1("字符串1" + i);
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            CompatibilityData data = new CompatibilityData();
+//            data.setString0("字符串0" + i);
+//            data.setString1("字符串1" + i);
+//            list.add(data);
+//        }
         return list;
     }
 

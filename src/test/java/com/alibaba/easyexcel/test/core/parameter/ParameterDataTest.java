@@ -120,11 +120,11 @@ public class ParameterDataTest {
 
     private List<ParameterData> data() {
         List<ParameterData> list = new ArrayList<ParameterData>();
-        for (int i = 0; i < 10; i++) {
-            ParameterData simpleData = new ParameterData();
-            simpleData.setName("姓名" + i);
-            list.add(simpleData);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            ParameterData simpleData = new ParameterData();
+//            simpleData.setName("姓名" + i);
+//            list.add(simpleData);
+//        }
         return list;
     }
 }

@@ -98,22 +98,22 @@ public class FillTempTest {
 
     private List<FillData2> data2() {
         List<FillData2> list = new ArrayList<FillData2>();
-        for (int i = 0; i < 10; i++) {
-            FillData2 fillData = new FillData2();
-            list.add(fillData);
-            fillData.setTest("ttttttt" + i);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            FillData2 fillData = new FillData2();
+//            list.add(fillData);
+//            fillData.setTest("ttttttt" + i);
+//        }
         return list;
     }
 
     private List<FillData> data() {
         List<FillData> list = new ArrayList<FillData>();
-        for (int i = 0; i < 10; i++) {
-            FillData fillData = new FillData();
-            list.add(fillData);
-            fillData.setName("张三");
-            fillData.setNumber(5.2);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            FillData fillData = new FillData();
+//            list.add(fillData);
+//            fillData.setName("张三");
+//            fillData.setNumber(5.2);
+//        }
         return list;
     }
 }

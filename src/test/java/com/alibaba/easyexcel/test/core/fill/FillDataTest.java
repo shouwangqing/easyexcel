@@ -105,10 +105,10 @@ public class FillDataTest {
     }
 
     private void byNameFill(File file, File template) {
-        FillData fillData = new FillData();
-        fillData.setName("张三");
-        fillData.setNumber(5.2);
-        EasyExcel.write(file, FillData.class).withTemplate(template).sheet("Sheet2").doFill(fillData);
+//        FillData fillData = new FillData();
+//        fillData.setName("张三");
+//        fillData.setNumber(5.2);
+//        EasyExcel.write(file, FillData.class).withTemplate(template).sheet("Sheet2").doFill(fillData);
     }
 
     private void horizontalFill(File file, File template) {
@@ -147,19 +147,19 @@ public class FillDataTest {
 
     private void fill(File file, File template) {
         FillData fillData = new FillData();
-        fillData.setName("张三");
-        fillData.setNumber(5.2);
-        EasyExcel.write(file, FillData.class).withTemplate(template).sheet().doFill(fillData);
+//        fillData.setName("张三");
+//        fillData.setNumber(5.2);
+//        EasyExcel.write(file, FillData.class).withTemplate(template).sheet().doFill(fillData);
     }
 
     private List<FillData> data() {
         List<FillData> list = new ArrayList<FillData>();
-        for (int i = 0; i < 10; i++) {
-            FillData fillData = new FillData();
-            list.add(fillData);
-            fillData.setName("张三");
-            fillData.setNumber(5.2);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            FillData fillData = new FillData();
+//            list.add(fillData);
+//            fillData.setName("张三");
+//            fillData.setNumber(5.2);
+//        }
         return list;
     }
 

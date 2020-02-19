@@ -54,18 +54,18 @@ public class CellDataDataTest {
 
     private List<CellDataData> data() throws Exception {
         List<CellDataData> list = new ArrayList<CellDataData>();
-        CellDataData cellDataData = new CellDataData();
-        cellDataData.setDate(new CellData<Date>(DateUtils.parseDate("2020-01-01 01:01:01")));
-        CellData<Integer> integer1 = new CellData<Integer>();
-        integer1.setType(CellDataTypeEnum.NUMBER);
-        integer1.setNumberValue(BigDecimal.valueOf(2L));
-        cellDataData.setInteger1(integer1);
-        cellDataData.setInteger2(2);
-        CellData formulaValue = new CellData();
-        formulaValue.setFormula(Boolean.TRUE);
-        formulaValue.setFormulaValue("B2+C2");
-        cellDataData.setFormulaValue(formulaValue);
-        list.add(cellDataData);
+//        CellDataData cellDataData = new CellDataData();
+//        cellDataData.setDate(new CellData<Date>(DateUtils.parseDate("2020-01-01 01:01:01")));
+//        CellData<Integer> integer1 = new CellData<Integer>();
+//        integer1.setType(CellDataTypeEnum.NUMBER);
+//        integer1.setNumberValue(BigDecimal.valueOf(2L));
+//        cellDataData.setInteger1(integer1);
+//        cellDataData.setInteger2(2);
+//        CellData formulaValue = new CellData();
+//        formulaValue.setFormula(Boolean.TRUE);
+//        formulaValue.setFormulaValue("B2+C2");
+//        cellDataData.setFormulaValue(formulaValue);
+//        list.add(cellDataData);
         return list;
     }
 }

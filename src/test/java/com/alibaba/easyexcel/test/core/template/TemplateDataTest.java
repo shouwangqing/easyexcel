@@ -54,14 +54,14 @@ public class TemplateDataTest {
 
     private List<TemplateData> data() {
         List<TemplateData> list = new ArrayList<TemplateData>();
-        TemplateData data = new TemplateData();
-        data.setString0("字符串0");
-        data.setString1("字符串01");
-        TemplateData data1 = new TemplateData();
-        data1.setString0("字符串1");
-        data1.setString1("字符串11");
-        list.add(data);
-        list.add(data1);
+//        TemplateData data = new TemplateData();
+//        data.setString0("字符串0");
+//        data.setString1("字符串01");
+//        TemplateData data1 = new TemplateData();
+//        data1.setString0("字符串1");
+//        data1.setString1("字符串11");
+//        list.add(data);
+//        list.add(data1);
         return list;
     }
 }

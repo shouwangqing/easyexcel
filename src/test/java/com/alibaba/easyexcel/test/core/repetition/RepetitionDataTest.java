@@ -78,9 +78,9 @@ public class RepetitionDataTest {
 
     private List<RepetitionData> data() {
         List<RepetitionData> list = new ArrayList<RepetitionData>();
-        RepetitionData data = new RepetitionData();
-        data.setString("字符串0");
-        list.add(data);
+//        RepetitionData data = new RepetitionData();
+//        data.setString("字符串0");
+//        list.add(data);
         return list;
     }
 }

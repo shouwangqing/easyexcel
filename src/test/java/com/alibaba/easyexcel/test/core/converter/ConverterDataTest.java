@@ -75,16 +75,16 @@ public class ConverterDataTest {
     private void writeImage(File file) throws Exception {
         InputStream inputStream = null;
         try {
-            List<ImageData> list = new ArrayList<ImageData>();
-            ImageData imageData = new ImageData();
-            list.add(imageData);
-            String imagePath = TestFileUtil.getPath() + "converter" + File.separator + "img.jpg";
-            imageData.setByteArray(FileUtils.readFileToByteArray(new File(imagePath)));
-            imageData.setFile(new File(imagePath));
-            imageData.setString(imagePath);
-            inputStream = FileUtils.openInputStream(new File(imagePath));
-            imageData.setInputStream(inputStream);
-            EasyExcel.write(file, ImageData.class).sheet().doWrite(list);
+//            List<ImageData> list = new ArrayList<ImageData>();
+//            ImageData imageData = new ImageData();
+//            list.add(imageData);
+//            String imagePath = TestFileUtil.getPath() + "converter" + File.separator + "img.jpg";
+//            imageData.setByteArray(FileUtils.readFileToByteArray(new File(imagePath)));
+//            imageData.setFile(new File(imagePath));
+//            imageData.setString(imagePath);
+//            inputStream = FileUtils.openInputStream(new File(imagePath));
+//            imageData.setInputStream(inputStream);
+//            EasyExcel.write(file, ImageData.class).sheet().doWrite(list);
         } finally {
             if (inputStream != null) {
                 inputStream.close();
@@ -99,19 +99,19 @@ public class ConverterDataTest {
 
     private List<ConverterData> data() throws Exception {
         List<ConverterData> list = new ArrayList<ConverterData>();
-        ConverterData converterData = new ConverterData();
-        converterData.setDate(DateUtils.parseDate("2020-01-01 01:01:01"));
-        converterData.setBooleanData(Boolean.TRUE);
-        converterData.setBigDecimal(BigDecimal.ONE);
-        converterData.setLongData(1L);
-        converterData.setIntegerData(1);
-        converterData.setShortData((short)1);
-        converterData.setByteData((byte)1);
-        converterData.setDoubleData(1.0);
-        converterData.setFloatData((float)1.0);
-        converterData.setString("测试");
-        converterData.setCellData(new CellData("自定义"));
-        list.add(converterData);
+//        ConverterData converterData = new ConverterData();
+//        converterData.setDate(DateUtils.parseDate("2020-01-01 01:01:01"));
+//        converterData.setBooleanData(Boolean.TRUE);
+//        converterData.setBigDecimal(BigDecimal.ONE);
+//        converterData.setLongData(1L);
+//        converterData.setIntegerData(1);
+//        converterData.setShortData((short)1);
+//        converterData.setByteData((byte)1);
+//        converterData.setDoubleData(1.0);
+//        converterData.setFloatData((float)1.0);
+//        converterData.setString("测试");
+//        converterData.setCellData(new CellData("自定义"));
+//        list.add(converterData);
         return list;
     }
 }

@@ -78,11 +78,11 @@ public class EncryptDataTest {
 
     private List<SimpleData> data() {
         List<SimpleData> list = new ArrayList<SimpleData>();
-        for (int i = 0; i < 10; i++) {
-            SimpleData simpleData = new SimpleData();
-            simpleData.setName("姓名" + i);
-            list.add(simpleData);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            SimpleData simpleData = new SimpleData();
+//            simpleData.setName("姓名" + i);
+//            list.add(simpleData);
+//        }
         return list;
     }
 }

@@ -98,13 +98,13 @@ public class WebTest {
 
     private List<DownloadData> data() {
         List<DownloadData> list = new ArrayList<DownloadData>();
-        for (int i = 0; i < 10; i++) {
-            DownloadData data = new DownloadData();
-            data.setString("字符串" + 0);
-            data.setDate(new Date());
-            data.setDoubleData(0.56);
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            DownloadData data = new DownloadData();
+//            data.setString("字符串" + 0);
+//            data.setDate(new Date());
+//            data.setDoubleData(0.56);
+//            list.add(data);
+//        }
         return list;
     }
 }

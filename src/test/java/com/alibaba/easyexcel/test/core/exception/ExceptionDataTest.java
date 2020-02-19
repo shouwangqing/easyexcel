@@ -47,11 +47,11 @@ public class ExceptionDataTest {
 
     private List<ExceptionData> data() {
         List<ExceptionData> list = new ArrayList<ExceptionData>();
-        for (int i = 0; i < 10; i++) {
-            ExceptionData simpleData = new ExceptionData();
-            simpleData.setName("姓名" + i);
-            list.add(simpleData);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            ExceptionData simpleData = new ExceptionData();
+//            simpleData.setName("姓名" + i);
+//            list.add(simpleData);
+//        }
         return list;
     }
 }

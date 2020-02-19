@@ -44,12 +44,12 @@ public class AnnotationIndexAndNameDataTest {
 
     private List<AnnotationIndexAndNameData> data() {
         List<AnnotationIndexAndNameData> list = new ArrayList<AnnotationIndexAndNameData>();
-        AnnotationIndexAndNameData data = new AnnotationIndexAndNameData();
-        data.setIndex0("第0个");
-        data.setIndex1("第1个");
-        data.setIndex2("第2个");
-        data.setIndex4("第4个");
-        list.add(data);
+//        AnnotationIndexAndNameData data = new AnnotationIndexAndNameData();
+//        data.setIndex0("第0个");
+//        data.setIndex1("第1个");
+//        data.setIndex2("第2个");
+//        data.setIndex4("第4个");
+//        list.add(data);
         return list;
     }
 }

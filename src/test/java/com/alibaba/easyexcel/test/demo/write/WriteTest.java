@@ -214,19 +214,19 @@ public class WriteTest {
         // 如果使用流 记得关闭
         InputStream inputStream = null;
         try {
-            List<ImageData> list = new ArrayList<ImageData>();
-            ImageData imageData = new ImageData();
-            list.add(imageData);
-            String imagePath = TestFileUtil.getPath() + "converter" + File.separator + "img.jpg";
-            // 放入五种类型的图片 实际使用只要选一种即可
-            imageData.setByteArray(FileUtils.readFileToByteArray(new File(imagePath)));
-            imageData.setFile(new File(imagePath));
-            imageData.setString(imagePath);
-            inputStream = FileUtils.openInputStream(new File(imagePath));
-            imageData.setInputStream(inputStream);
-            imageData.setUrl(new URL(
-                "https://raw.githubusercontent.com/alibaba/easyexcel/master/src/test/resources/converter/img.jpg"));
-            EasyExcel.write(fileName, ImageData.class).sheet().doWrite(list);
+//            List<ImageData> list = new ArrayList<ImageData>();
+//            ImageData imageData = new ImageData();
+//            list.add(imageData);
+//            String imagePath = TestFileUtil.getPath() + "converter" + File.separator + "img.jpg";
+//            // 放入五种类型的图片 实际使用只要选一种即可
+//            imageData.setByteArray(FileUtils.readFileToByteArray(new File(imagePath)));
+//            imageData.setFile(new File(imagePath));
+//            imageData.setString(imagePath);
+//            inputStream = FileUtils.openInputStream(new File(imagePath));
+//            imageData.setInputStream(inputStream);
+//            imageData.setUrl(new URL(
+//                "https://raw.githubusercontent.com/alibaba/easyexcel/master/src/test/resources/converter/img.jpg"));
+//            EasyExcel.write(fileName, ImageData.class).sheet().doWrite(list);
         } finally {
             if (inputStream != null) {
                 inputStream.close();
@@ -427,13 +427,13 @@ public class WriteTest {
 
     private List<LongestMatchColumnWidthData> dataLong() {
         List<LongestMatchColumnWidthData> list = new ArrayList<LongestMatchColumnWidthData>();
-        for (int i = 0; i < 10; i++) {
-            LongestMatchColumnWidthData data = new LongestMatchColumnWidthData();
-            data.setString("测试很长的字符串测试很长的字符串测试很长的字符串" + i);
-            data.setDate(new Date());
-            data.setDoubleData(1000000000000.0);
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            LongestMatchColumnWidthData data = new LongestMatchColumnWidthData();
+//            data.setString("测试很长的字符串测试很长的字符串测试很长的字符串" + i);
+//            data.setDate(new Date());
+//            data.setDoubleData(1000000000000.0);
+//            list.add(data);
+//        }
         return list;
     }
 
@@ -465,13 +465,13 @@ public class WriteTest {
 
     private List<DemoData> data() {
         List<DemoData> list = new ArrayList<DemoData>();
-        for (int i = 0; i < 10; i++) {
-            DemoData data = new DemoData();
-            data.setString("字符串" + i);
-            data.setDate(new Date());
-            data.setDoubleData(0.56);
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            DemoData data = new DemoData();
+//            data.setString("字符串" + i);
+//            data.setDate(new Date());
+//            data.setDoubleData(0.56);
+//            list.add(data);
+//        }
         return list;
     }
 

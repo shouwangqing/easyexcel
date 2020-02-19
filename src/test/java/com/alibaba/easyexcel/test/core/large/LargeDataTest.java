@@ -52,36 +52,36 @@ public class LargeDataTest {
 
     private List<LargeData> data() {
         List<LargeData> list = new ArrayList<LargeData>();
-        int size = i + 5000;
-        for (; i < size; i++) {
-            LargeData largeData = new LargeData();
-            list.add(largeData);
-            largeData.setStr1("str1-" + i);
-            largeData.setStr2("str2-" + i);
-            largeData.setStr3("str3-" + i);
-            largeData.setStr4("str4-" + i);
-            largeData.setStr5("str5-" + i);
-            largeData.setStr6("str6-" + i);
-            largeData.setStr7("str7-" + i);
-            largeData.setStr8("str8-" + i);
-            largeData.setStr9("str9-" + i);
-            largeData.setStr10("str10-" + i);
-            largeData.setStr11("str11-" + i);
-            largeData.setStr12("str12-" + i);
-            largeData.setStr13("str13-" + i);
-            largeData.setStr14("str14-" + i);
-            largeData.setStr15("str15-" + i);
-            largeData.setStr16("str16-" + i);
-            largeData.setStr17("str17-" + i);
-            largeData.setStr18("str18-" + i);
-            largeData.setStr19("str19-" + i);
-            largeData.setStr20("str20-" + i);
-            largeData.setStr21("str21-" + i);
-            largeData.setStr22("str22-" + i);
-            largeData.setStr23("str23-" + i);
-            largeData.setStr24("str24-" + i);
-            largeData.setStr25("str25-" + i);
-        }
+//        int size = i + 5000;
+//        for (; i < size; i++) {
+//            LargeData largeData = new LargeData();
+//            list.add(largeData);
+//            largeData.setStr1("str1-" + i);
+//            largeData.setStr2("str2-" + i);
+//            largeData.setStr3("str3-" + i);
+//            largeData.setStr4("str4-" + i);
+//            largeData.setStr5("str5-" + i);
+//            largeData.setStr6("str6-" + i);
+//            largeData.setStr7("str7-" + i);
+//            largeData.setStr8("str8-" + i);
+//            largeData.setStr9("str9-" + i);
+//            largeData.setStr10("str10-" + i);
+//            largeData.setStr11("str11-" + i);
+//            largeData.setStr12("str12-" + i);
+//            largeData.setStr13("str13-" + i);
+//            largeData.setStr14("str14-" + i);
+//            largeData.setStr15("str15-" + i);
+//            largeData.setStr16("str16-" + i);
+//            largeData.setStr17("str17-" + i);
+//            largeData.setStr18("str18-" + i);
+//            largeData.setStr19("str19-" + i);
+//            largeData.setStr20("str20-" + i);
+//            largeData.setStr21("str21-" + i);
+//            largeData.setStr22("str22-" + i);
+//            largeData.setStr23("str23-" + i);
+//            largeData.setStr24("str24-" + i);
+//            largeData.setStr25("str25-" + i);
+//        }
         return list;
     }
 }

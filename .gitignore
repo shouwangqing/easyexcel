@@ -13,3 +13,5 @@ target/
 *.iws
 antx.properties
 output/
+
+.settings/

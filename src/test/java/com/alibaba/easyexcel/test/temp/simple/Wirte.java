@@ -28,13 +28,13 @@ public class Wirte {
 
     @Test
     public void simpleWrite1() {
-        LargeData ss = new LargeData();
-        ss.setStr23("ttt");
-        Map map = BeanMap.create(ss);
-        System.out.println(map.containsKey("str23"));
-        System.out.println(map.containsKey("str22"));
-        System.out.println(map.get("str23"));
-        System.out.println(map.get("str22"));
+//        LargeData ss = new LargeData();
+//        ss.setStr23("ttt");
+//        Map map = BeanMap.create(ss);
+//        System.out.println(map.containsKey("str23"));
+//        System.out.println(map.containsKey("str22"));
+//        System.out.println(map.get("str23"));
+//        System.out.println(map.get("str22"));
     }
 
     @Test
@@ -62,13 +62,13 @@ public class Wirte {
 
     private List<DemoData> data() {
         List<DemoData> list = new ArrayList<DemoData>();
-        for (int i = 0; i < 10; i++) {
-            DemoData data = new DemoData();
-            data.setString("字符串" + i);
-            data.setDate(new Date());
-            data.setDoubleData(null);
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            DemoData data = new DemoData();
+//            data.setString("字符串" + i);
+//            data.setDate(new Date());
+//            data.setDoubleData(null);
+//            list.add(data);
+//        }
         return list;
     }
 

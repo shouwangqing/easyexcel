@@ -62,13 +62,13 @@ public class ComplexHeadDataTest {
 
     private List<ComplexHeadData> data() {
         List<ComplexHeadData> list = new ArrayList<ComplexHeadData>();
-        ComplexHeadData data = new ComplexHeadData();
-        data.setString0("字符串0");
-        data.setString1("字符串1");
-        data.setString2("字符串2");
-        data.setString3("字符串3");
-        data.setString4("字符串4");
-        list.add(data);
+//        ComplexHeadData data = new ComplexHeadData();
+//        data.setString0("字符串0");
+//        data.setString1("字符串1");
+//        data.setString2("字符串2");
+//        data.setString3("字符串3");
+//        data.setString4("字符串4");
+//        list.add(data);
         return list;
     }
 }

@@ -145,25 +145,25 @@ public class StyleDataTest {
 
     private List<StyleData> data() {
         List<StyleData> list = new ArrayList<StyleData>();
-        StyleData data = new StyleData();
-        data.setString("字符串0");
-        data.setString1("字符串01");
-        StyleData data1 = new StyleData();
-        data1.setString("字符串1");
-        data1.setString1("字符串11");
-        list.add(data);
-        list.add(data1);
+//        StyleData data = new StyleData();
+//        data.setString("字符串0");
+//        data.setString1("字符串01");
+//        StyleData data1 = new StyleData();
+//        data1.setString("字符串1");
+//        data1.setString1("字符串11");
+//        list.add(data);
+//        list.add(data1);
         return list;
     }
 
     private List<StyleData> data10() {
         List<StyleData> list = new ArrayList<StyleData>();
-        for (int i = 0; i < 10; i++) {
-            StyleData data = new StyleData();
-            data.setString("字符串0");
-            data.setString1("字符串01");
-            list.add(data);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            StyleData data = new StyleData();
+//            data.setString("字符串0");
+//            data.setString1("字符串01");
+//            list.add(data);
+//        }
         return list;
     }
 }
